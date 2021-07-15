@@ -9,4 +9,6 @@ platform:
 steps:
 - name: test-step
   commands:
-  - echo hello world
+  - ifconfig
+  - pwd
+  - ls -a
