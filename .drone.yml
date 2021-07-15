@@ -10,3 +10,4 @@ steps:
 - name: test-step
   commands:
   - pwd
+  - xcodebuild -project TestDemo.xcodeproj
