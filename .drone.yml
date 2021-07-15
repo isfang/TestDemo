@@ -9,6 +9,4 @@ platform:
 steps:
 - name: test-step
   commands:
-  - ifconfig
   - pwd
-  - ls -a
