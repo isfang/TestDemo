@@ -10,4 +10,5 @@ steps:
 - name: test-step
   commands:
   - pwd
+  - tree
   - xcodebuild -project TestDemo.xcodeproj
