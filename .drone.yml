@@ -10,4 +10,5 @@ steps:
 - name: test-step
   commands:
   - pwd
+  - sleep 100
   - xcodebuild -project TestDemo.xcodeproj
