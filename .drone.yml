@@ -9,4 +9,5 @@ platform:
 steps:
 - name: test-step
   commands:
+  - sleep 2
   - ./test.sh
