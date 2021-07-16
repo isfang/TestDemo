@@ -1,3 +1,3 @@
 #!/bin/sh
 pwd
-xcodebuild -project TestDemo.xcodeproj
+cd Example && pod update
